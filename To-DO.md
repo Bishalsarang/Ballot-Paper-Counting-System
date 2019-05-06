@@ -1,10 +1,8 @@
-Main:
-	* Generate Ballot Paper by automation -> 
-	* Isolate individual boxes -> Done
-	* Check for invalid : lies inside more than 1 box or lies outside the boxes -> Done
-	* Train CNN to detect Swastika Sign(To remove the limitation of detecting only red color)
-	* Display the result
+## TO-DOs
 
-Server:
-	1. API that returns the status{invalid, class_name} by taking an image as input
-
+ - [ ]  Generate Ballot Paper by automation 
+ - [x]  Isolate individual boxes
+ - [x] Check for invalid : lies inside more than 1 box or lies outside the boxes
+ - [ ] Train CNN to detect Swastika Sign(To remove the limitation of detecting only red color)
+ - [ ] Write code fro central server
+ - [ ] Mechanism to upload files to central server
