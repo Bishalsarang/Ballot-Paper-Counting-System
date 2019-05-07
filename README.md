@@ -30,5 +30,9 @@ and synthesized datasets using ***PIL library*** by  overlaying *swastika* symbo
 | ![Contour Detection](https://i.ibb.co/98BmSLP/imgt.jpg) |![Contour Detection(Only Boxes)](https://i.ibb.co/c3pSFxR/img3.jpg)|
 | ![enter image description here](https://i.ibb.co/w0cV0K6/img5.jpg) |![enter image description here](https://i.ibb.co/ZTVDwm8/win.jpg)  |
 
-
-
+### Requirements:
+ - numpy 1.16.3
+ - matplotlib 3.0.3
+ - opencv 3.4.3
+ - imutils 0.5.2
+ - PIL 4.3.0
