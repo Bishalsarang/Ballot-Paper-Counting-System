@@ -14,15 +14,15 @@ and synthesized datasets using ***PIL library*** by  overlaying *swastika* symbo
 
 ### For Valid Ballot
 
- **1**. Read the image
- **2**. Preprocess the image(Gaussian blur, edge detection, thresholding)
- **3**. Apply contour detection( includes all contour including texts)
- **4**. Approximate polygon with the contour and include only if it has 4 corners and satisfy size constraints
- **5**. Sort the rectangular by top to bottom, left to right as they appear on paper
- **6**.  Process each rectangular contours and find if there is red pixel inside any of the box
- **7**.  Set that index to True if particular index contains red color
- **8**. Check red pixel lies outside the boxes by filling contours with black color and searching for red pixel
-**9**. Valid if there are 39 rectangular contours and no red color in multiple boxes and no red color outside these 39 rectangular boxes
+ **1**. Read the image<br>
+ **2**. Preprocess the image(Gaussian blur, edge detection, thresholding)<br>
+ **3**. Apply contour detection( includes all contour including texts)<br>
+ **4**. Approximate polygon with the contour and include only if it has 4 corners and satisfy size constraints<br>
+ **5**. Sort the rectangular by top to bottom, left to right as they appear on paper<br>
+ **6**.  Process each rectangular contours and find if there is red pixel inside any of the box<br>
+ **7**.  Set that index to True if particular index contains red color<br>
+ **8**. Check red pixel lies outside the boxes by filling contours with black color and searching for red pixel<br>
+**9**. Valid if there are 39 rectangular contours and no red color in multiple boxes and no red color outside these 39 rectangular boxes<br>
 
     See images below for stepwise illustration:
 
